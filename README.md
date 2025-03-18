@@ -1,48 +1,48 @@
 # 📂 Runtrack BDD – SQL & Python  
 
 ## 📌 Introduction  
-Ce dépôt regroupe les exercices réalisés sur 2 jours pour apprendre SQL avec MySQL et l'utiliser avec Python. L'objectif est de manipuler des bases de données, écrire des requêtes SQL et interagir avec MySQL via Python.  
+This repository contains exercises completed over 2 days to learn SQL with MySQL and use it with Python. The goal is to manipulate databases, write SQL queries, and interact with MySQL via Python.  
 
 ---
 
-## 📅 Jour 1 : SQL  
+## 📅 Day 1: SQL  
 
-1. **Installation MySQL** : Installer MySQL server et configurer le terminal SQL.  
-2. **Création de la BDD** : Créer la base de données `LaPlateforme`.  
-3. **Table Étudiant** : Ajouter une table `etudiant` avec des champs de base (id, nom, prénom, âge, email).  
-4. **Afficher les colonnes** : Vérifier la structure de la table `etudiant`.  
-5. **Insertion de données** : Ajouter des étudiants dans la table `etudiant`.  
-6. **Récupération des étudiants** : Sélectionner et afficher tous les étudiants.  
-7. **Sauvegarde de la BDD** : Exporter la base de données dans un fichier `.sql`.  
-8. **Requêtes SQL avancées** : Sélectionner les étudiants mineurs, trier les âges, filtrer par nom, mise à jour et suppression de données.  
+1. **Install MySQL**: Install MySQL server and set up the SQL terminal.  
+2. **Create the Database**: Create the database `LaPlateforme`.  
+3. **Student Table**: Add a `student` table with basic fields (id, first name, last name, age, email).  
+4. **Show Columns**: Check the structure of the `student` table.  
+5. **Insert Data**: Add students to the `student` table.  
+6. **Retrieve Students**: Select and display all students.  
+7. **Database Backup**: Export the database to a `.sql` file.  
+8. **Advanced SQL Queries**: Select minors, sort by age, filter by name, update and delete data.  
 
-📁 _Fichiers SQL disponibles dans le dossier_ **jour1/**  
-
----
-
-## 📅 Jour 2 : SQL et Python  
-
-1. **Connexion MySQL en Python** : Se connecter à `LaPlateforme` via `mysql-connector-python`.  
-2. **Création de nouvelles tables** : `etage` et `salle` avec des relations entre elles.  
-3. **Ajout de données** : Insérer des étages et salles dans la base.  
-4. **Affichage des salles** : Récupérer et afficher les noms et capacités des salles.  
-5. **Calculs SQL** : Calculer la superficie totale des étages et la capacité des salles.  
-6. **Requêtes avancées** : Sélectionner les employés gagnant plus de 3000€, récupérer les employés avec leur service.  
-7. **Programmation Orientée Objet (POO)** : Créer une classe `Employe` en Python pour manipuler la base.  
-8. **Gestion d'un Zoo** : Créer une BDD `zoo` avec des tables `animal` et `cage`, et développer un programme permettant d'ajouter, supprimer et afficher les animaux et cages.  
-
-📁 _Fichiers SQL & Python disponibles dans le dossier_ **jour2/**  
+📁 _SQL files available in the folder_ **day1/**  
 
 ---
 
-## 🚀 Objectifs  
-✔️ Comprendre et manipuler MySQL  
-✔️ Écrire des requêtes SQL complexes  
-✔️ Interagir avec MySQL en Python  
-✔️ Appliquer la POO pour gérer une BDD  
+## 📅 Day 2: SQL and Python  
 
-🔗 _Références utiles :_  
+1. **MySQL Connection in Python**: Connect to `LaPlateforme` via `mysql-connector-python`.  
+2. **Create New Tables**: `floor` and `room` tables with relationships between them.  
+3. **Insert Data**: Insert floors and rooms into the database.  
+4. **Display Rooms**: Retrieve and display the names and capacities of the rooms.  
+5. **SQL Calculations**: Calculate the total area of floors and the capacity of rooms.  
+6. **Advanced Queries**: Select employees earning more than 3000€, retrieve employees with their department.  
+7. **Object-Oriented Programming (OOP)**: Create an `Employee` class in Python to manipulate the database.  
+8. **Zoo Management**: Create a `zoo` database with `animal` and `cage` tables, and develop a program to add, delete, and display animals and cages.  
+
+📁 _SQL & Python files available in the folder_ **day2/**  
+
+---
+
+## 🚀 Objectives  
+✔️ Understand and manipulate MySQL  
+✔️ Write complex SQL queries  
+✔️ Interact with MySQL in Python  
+✔️ Apply OOP to manage a database  
+
+🔗 _Useful References:_  
 - [MySQL Connector Python](https://pypi.org/project/mysql-connector-python/)  
-- [Documentation SQL](https://sql.sh/)  
+- [SQL Documentation](https://sql.sh/)  
 
 ---
